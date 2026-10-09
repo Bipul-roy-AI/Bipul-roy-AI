@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="390" viewBox="0 0 1440 390" role="img" aria-label="Bipul Roy — Computational Geographer. Topographic contour banner in deep blue, teal and amber.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0e2430"/>
+      <stop offset="55%" stop-color="#143a4a"/>
+      <stop offset="100%" stop-color="#102a38"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2b747b" stop-opacity=".26"/>
+      <stop offset="100%" stop-color="#2b747b" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="70" height="70" patternUnits="userSpaceOnUse">
+      <path d="M70 0H0V70" fill="none" stroke="#f2efe6" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1440" height="390" fill="url(#bg)"/>
+  <rect width="1440" height="390" fill="url(#grid)"/>
+  <circle cx="1220" cy="200" r="280" fill="url(#glow)"/>
+  <g fill="none" stroke="#3e8885" stroke-width="1.8" opacity=".57">
+    <path d="M730 -80 C780 65 1000 -50 1135 95 S1400 80 1510 170"/>
+    <path d="M705 -50 C755 94 970 -20 1110 120 S1380 111 1510 200"/>
+    <path d="M680 -20 C730 124 940 10 1085 145 S1360 142 1510 230"/>
+    <path d="M655 10 C705 154 910 40 1060 170 S1340 173 1510 260"/>
+    <path d="M630 40 C680 184 880 70 1035 195 S1320 204 1510 290"/>
+    <path d="M605 70 C655 214 850 100 1010 220 S1300 235 1510 320"/>
+    <path d="M580 100 C630 244 820 130 985 245 S1280 266 1510 350"/>
+    <path d="M555 130 C605 274 790 160 960 270 S1260 297 1510 380"/>
+    <path d="M530 160 C580 304 760 190 935 295 S1240 328 1510 410"/>
+  </g>
+  <g fill="none" stroke="#d49e50" stroke-width="1.5" opacity=".38">
+    <path d="M855 -70 C920 35 1060 -20 1200 115 S1390 140 1500 165"/>
+    <path d="M825 -42 C890 62 1030 10 1170 145 S1370 170 1500 195"/>
+    <path d="M795 -14 C860 91 1000 40 1140 175 S1350 200 1500 225"/>
+  </g>
+  <g stroke="#a2b6ba" stroke-opacity=".16" fill="none">
+    <circle cx="1114" cy="186" r="128"/>
+    <circle cx="1114" cy="186" r="91"/>
+    <path d="M980 186 H1250 M1114 50 V322"/>
+  </g>
+  <circle cx="1114" cy="186" r="5" fill="#d49e50"/>
+  <rect x="73" y="75" width="5" height="243" rx="2" fill="#d49e50"/>
+  <text x="105" y="104" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#d49e50" letter-spacing="3.5">EARTH OBSERVATION  /  SPATIAL INTELLIGENCE</text>
+  <text x="100" y="191" font-family="Georgia, Times New Roman, serif" font-size="74" font-weight="bold" fill="#f7f4ea">Bipul Roy</text>
+  <text x="104" y="241" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#dbe9e7" letter-spacing=".9">Computational Geographer  ·  GIS Analyst  ·  Researcher</text>
+  <text x="105" y="281" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#9dc7c8" letter-spacing="1.1">Hydrodynamic Modelling   /   Remote Sensing   /   Geospatial Data Science</text>
+  <text x="105" y="340" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#c7d2ce" letter-spacing="2">CHATTOGRAM, BANGLADESH</text>
+  <text x="1303" y="350" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#a4b9b8" letter-spacing="2">GIS + RS</text>
+</svg>
