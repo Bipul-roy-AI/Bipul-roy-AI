@@ -20,7 +20,7 @@
 
 My updated, mobile-friendly academic portfolio is built with the [academic-website-template](https://github.com/sbryngelson/academic-website-template) and highlights my **research**, **professional experience**, **manuscripts and presentations**, and **open-source geospatial software**.
 
-[Research](https://bipul-roy-ai.github.io/research/) · [Publications](https://bipul-roy-ai.github.io/publications/) · [Software](https://bipul-roy-ai.github.io/software/) · [Experience](https://bipul-roy-ai.github.io/experience/) · [Contact](https://bipul-roy-ai.github.io/contact/)
+[Research](https://bipul-roy-ai.github.io/research/) · [Publications](https://bipul-roy-ai.github.io/publications/) · [Projects](https://bipul-roy-ai.github.io/projects/) · [Software & Skills](https://bipul-roy-ai.github.io/software/) · [Experience](https://bipul-roy-ai.github.io/experience/) · [Contact](https://bipul-roy-ai.github.io/contact/)
 
 ---
 
