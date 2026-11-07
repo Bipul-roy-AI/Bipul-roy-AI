@@ -1,179 +1,120 @@
 <!-- GitHub profile README | Bipul Roy | @Bipul-roy-AI -->
 
 <p align="center">
-  <img src="assets/cover.svg" width="100%" alt="Bipul Roy — computational geography and geospatial research cover banner">
+  <img src="assets/cover.svg" width="100%" alt="Bipul Roy, computational geography and geospatial research cover banner">
 </p>
 
 <h1 align="center">Bipul Roy</h1>
 <p align="center"><strong>Computational Geographer · GIS Analyst · Geospatial Researcher</strong></p>
 <p align="center">Hydrodynamic Modelling · Earth Observation · Spatial Epidemiology · Environmental Data Science</p>
 <p align="center">
-  <a href="mailto:bipulroyedu@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-176579?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/bipul-roy-635140171/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-  <a href="https://bipul-roy-ai.github.io/"><img src="https://img.shields.io/badge/Portfolio-Explore-B88838?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Portfolio"></a>
-  <a href="https://github.com/Bipul-roy-AI?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Projects-243A47?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub projects"></a>
+  <a href="https://bipul-roy-ai.github.io/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/bipul-roy-635140171/">LinkedIn</a> ·
+  <a href="mailto:bipulroyedu@gmail.com">Email</a>
 </p>
 
-### Academic Portfolio
-
-**[Visit my academic website →](https://bipul-roy-ai.github.io/)**
-
 ---
 
-## About Me
+## About
 
-I am a **computational geographer and GIS analyst** working at the intersection of **hydrology, remote sensing, spatial epidemiology, and environmental risk assessment**. I connect Earth observation, field and infrastructure data, spatial statistics, physically based models, and reproducible geospatial software to help explain environmental processes and inform decisions.
+I'm a GIS analyst and geospatial researcher in Bangladesh. My work covers hydrodynamic flood modelling, satellite-based environmental monitoring, and the Python, QGIS and Google Earth Engine tools I build to make that work repeatable.
 
-I work as a **GIS Analyst at SPEKTER GmbH (Germany, remotely)**, supporting coupled **1D/2D hydrodynamic modelling** and geospatial data preparation for drainage and flood systems. I am also a **Research Assistant at the Space and Environment Research Center (SERC), Bangladesh**, studying satellite-based methane monitoring in Asian rice-growing landscapes.
+I work remotely as a GIS Analyst at SPEKTER GmbH (Germany), preparing data for coupled 1D/2D drainage and flood models. I'm also a Research Assistant at the Space and Environment Research Center (SERC), Bangladesh, where I study satellite methane monitoring over rice-growing landscapes. Before that I was a Research Consultant at CEGIS, mapping land use and land cover from high-resolution satellite and UAV imagery.
 
-Previously, I was a **Research Consultant at the Centre for Environmental and Geographic Information Services (CEGIS)**, where I worked on land-use/land-cover mapping using high-resolution satellite imagery and UAV data. I also develop Python, QGIS, and Google Earth Engine tools for reproducible environmental research.
+## Research interests
 
----
+- Compound flooding: tidal-rainfall interaction, urban drainage, 1D/2D model coupling
+- Remote sensing: SAR, Sentinel and Landsat time series, surface water, land-cover change
+- Wetlands and ecohydrology: soil moisture, methane, flash-flood disturbance, water balance
+- Environmental health: air pollution, urban heat, dengue and spatial epidemiology
 
-## Research Interests
+## Research projects
 
-- **Hydrology & compound flooding:** tidal–rainfall interactions, river and urban-drainage systems, flood hazards, 1D/2D model coupling
-- **Remote sensing:** SAR, Sentinel and Landsat observations, surface water and land-cover change, time-series monitoring
-- **Wetlands & ecohydrology:** soil moisture, methane dynamics, flash-flood disturbances, water balance
-- **Environmental and public health:** urban heat, air pollution, climate vulnerability, spatial epidemiology and dengue
-- **Geospatial data science:** Python automation, Google Earth Engine, statistical modelling, machine learning, model interpretation
+Each repository says what its results can and cannot support. Most are exploratory and not field-validated.
 
----
+| Project | What it found or asks | Status |
+| :--- | :--- | :--- |
+| [Hakaluki Haor wetland and methane](https://github.com/Bipul-roy-AI/Hakaluki-Haor-Wetland-Methane-Research) | 84 months (2019-2025) of Sentinel-1 (214 acquisitions), CHIRPS, ERA5-Land and TROPOMI data. Low-backscatter area follows the monsoon, but a rainfall-based Ridge model did not consistently beat a month-median baseline. TROPOMI methane covers 69 of 84 months and is mostly missing in the wet season. Includes an ESA Biomass P-band pilot (October 2026). | Exploratory analyses complete |
+| [CHT soil-moisture gap filling](https://github.com/Bipul-roy-AI/cht-soil-moisture-gapfilling) | Only 7.11% of 248,400 sampled SMAP records passed quality screening. On held-out 2022 records, XGBoost with radar and vegetation predictors reached RMSE 0.0555 m³/m³ against 0.0701 for a calendar-month baseline. The reference is the SMAP product, not field measurements. | Experiment complete, not ground validated |
+| [Dhaka air quality and climate](https://github.com/Bipul-roy-AI/Dhaka-Air-Quality-Climate-Research) | 312 monthly records (2000-2025) combining PM2.5, MODIS AOD, Sentinel-5P NO2 and ERA5-Land. The PM2.5 series shifts abruptly around August 2022, when the observation count also changes, so trend results carry that caveat. | Exploratory, provenance review ongoing |
+| [Bangladesh crop phenology](https://github.com/Bipul-roy-AI/bangladesh-crop-phenology) | Detects candidate growth cycles from Earth Engine time series and audits the AgriclimateBD crop-calendar data. The first export (Barguna) has been processed. | Prototype, no field validation |
+| [SAR flood segmentation](https://github.com/Bipul-roy-AI/Flood_segementation_sar_Bangladesh) | Does pre-event SAR context reduce confusion between existing water and new inundation? Compares water and change rules with a small U-Net on the same splits. | Code and CPU checks done, no Bangladesh results yet |
+| [Aerosol-cloud interactions](https://github.com/Bipul-roy-AI/AEROSOL-CLOUD-CLIMATE-INTERACTIONS) | Literature review, dataset catalog and pilot protocol for satellite aerosol-cloud analysis over the northern Bay of Bengal. | Study design, no data analyzed |
 
-## Current & Recent Research
+## Hydraulic modelling tools
 
-- **Compound tidal–rainfall flooding in Chattogram's khal (canal) system:** graduate research applying 1D/2D hydrodynamic modelling to drainage and flood interactions.
-- **Wetland methane dynamics under flash-flood disturbance:** remote sensing and climate-data analysis of Bangladesh's Haor ecosystems.
-- **Methane emissions from Asian rice-growing landscapes:** integrating Sentinel-5P atmospheric observations and radar imagery at SERC.
-- **Compound flooding and salinity in the tidal Halda River:** examining environmental vulnerability and community resilience.
-- **Dengue risk in Chattogram:** studying links between spatial environmental factors and vector-borne disease exposure.
+ArcMap 10.8 toolboxes for preparing and checking drainage model inputs.
 
----
+| Tool | What it does |
+| :--- | :--- |
+| [MIKE model cross-check](https://github.com/Bipul-roy-AI/DHI_MIKE_m11-mu-m21fm-crosscheck) | Compares pipe and node shapefiles with MIKE 11, MIKE+ and MIKE 21 FM files and writes CSV reports of differing and missing values. Includes batch checking across several M21FM files. |
+| [Pipe and culvert mesh tool](https://github.com/Bipul-roy-AI/Pipe-Culvert-Mesh-Tool) | Fills pipe and culvert inflow and outflow levels from mesh polygon elevations. |
+| [MU node attribute updater](https://github.com/Bipul-roy-AI/Mike-urban-network-node-updater) | Fills MU node attributes from pipe connectivity, optional DWG survey levels and mesh bathymetry. Backs up the shapefile before editing. |
 
-## Professional & Research Experience
+## Geospatial software
+
+| Tool | What it does |
+| :--- | :--- |
+| [Universal Satellite](https://github.com/Bipul-roy-AI/Universal-Satellite) | Searches 30 satellite and environmental data sources, downloads assets and computes spectral indices (280 formulas) from QGIS, ArcGIS Pro, Python or Node/TypeScript. |
+| [Earth Engine Research Workbench](https://github.com/Bipul-roy-AI/gee_interactive_downloader) | Local Streamlit app that exports GeoTIFFs, CSV time series and JSON method records, with scene IDs and processing settings kept alongside the data. |
+| [Sentinel Data Toolbox for QGIS](https://github.com/Bipul-roy-AI/qgis-sentinel-toolbox) | QGIS plugin for searching, downloading and preprocessing Sentinel-1 and Sentinel-2 imagery, using Planetary Computer or Copernicus Data Space. |
+| [Watershed Rainfall Analyzer](https://github.com/Bipul-roy-AI/watershed-rainfall-analysis) | Area-weighted basin rainfall statistics with Mann-Kendall, Sen's slope, Pettitt and SPI. Ships with Docker and a citation file. |
+| [Land surface temperature mapping](https://github.com/Bipul-roy-AI/Automated-Land-Surface-Temperature-LST-Mapping) | Command-line LST retrieval from Landsat 8/9, MODIS, ECOSTRESS and ASTER, with tests. Downscaling and trend functions are experimental. |
+| [Surface water analysis](https://github.com/Bipul-roy-AI/Bangladesh-surface-water-analysis) | Earth Engine monsoon and dry-season surface water extent for Bangladesh, with a mangrove NDVI filter. |
+| [Water balance and recharge](https://github.com/Bipul-roy-AI/gee-water-balance-recharge-bangladesh) | Screening-level groundwater recharge for Bangladesh in 2022 from IMERG, MODIS ET and GLDAS. |
+| [LULC classification engine](https://github.com/Bipul-roy-AI/gee-lulc-research-engine) | Earth Engine land-cover classification with Random Forest, SVM and CART and server-side K-fold validation. |
+| [Topographic soil-moisture controls](https://github.com/Bipul-roy-AI/topographic-soil-moisture-controls) | Spatial cross-validation demo on a synthetic soil-moisture target. |
+
+## Public project
+
+[ShasthoPath](https://bipul-roy-ai.github.io/Health_care_accessibility/) is a free map and directory of healthcare institutions in Bangladesh, in English and Bangla. It draws on the DGHS facility registry (39,442 institutions, of which 28,464 pass a national-boundary check) with routing, helplines and division-level statistics. Source code: [Health_care_accessibility](https://github.com/Bipul-roy-AI/Health_care_accessibility).
+
+## Current work
+
+- Compound tidal-rainfall flooding in Chattogram's khal (canal) system, using 1D/2D hydrodynamic modelling (graduate research)
+- Methane over Asian rice-growing landscapes with Sentinel-5P and radar imagery (SERC)
+- Compound flooding and salinity in the tidal Halda River
+- Dengue risk in Chattogram and its spatial environmental factors
+
+## Experience
 
 | Role | Organization | Focus |
 | :--- | :--- | :--- |
-| **GIS Analyst** · Jul 2025–present | **SPEKTER GmbH**, Germany (remote) | Coupled 1D/2D hydrodynamic models, municipal drainage and infrastructure mapping, GIS preparation |
-| **Research Assistant** · Feb 2025–present | **Space and Environment Research Center (SERC)** | Satellite and SAR analyses for rice-field methane research |
-| **Research Consultant** · May 2024–Jul 2025 | **CEGIS**, Bangladesh | High-resolution satellite/UAV land-cover mapping and ISO LCCS workflows |
-| **Field Researcher** · Feb–Mar 2024 | **Shahjalal University of Science & Technology** | Air, noise and water-quality assessment at Kuakata Sea Beach |
-
----
-
-## Featured GitHub Projects
-
-| Repository | Research / technical focus |
-| :--- | :--- |
-| **[Sentinel Data Toolbox for QGIS](https://github.com/Bipul-roy-AI/qgis-sentinel-toolbox)** | Search, download, preprocess and analyze Sentinel-1 SAR and Sentinel-2 imagery inside QGIS |
-| **[CHT Soil Moisture Gap-Filling](https://github.com/Bipul-roy-AI/cht-soil-moisture-gapfilling)** | SMAP and Sentinel-1 integration, XGBoost and SHAP analysis of soil moisture data gaps |
-| **[Dhaka Air Pollution, Climate & Health Intelligence](https://github.com/Bipul-roy-AI/Dhaka-Air-Pollution-Climate-Health-Intelligence)** | PM2.5, satellite observations and climate time-series analysis |
-| **[Automated Land Surface Temperature Mapping](https://github.com/Bipul-roy-AI/Automated-Land-Surface-Temperature-LST-Mapping)** | Multi-sensor Python workflows for Landsat, ASTER, MODIS and ECOSTRESS |
-| **[Bangladesh Surface Water Analysis](https://github.com/Bipul-roy-AI/Bangladesh-surface-water-analysis)** | Google Earth Engine water extent, seasonal dynamics and change detection |
-| **[GEE LULC Research Engine](https://github.com/Bipul-roy-AI/gee-lulc-research-engine)** | Multi-sensor land-cover classification workflows |
-| **[GEE Water Balance & Recharge](https://github.com/Bipul-roy-AI/gee-water-balance-recharge-bangladesh)** | Screening-level groundwater recharge and national-scale water balance |
-
----
-
-## Selected Research Manuscripts & Presentations
-
-### Manuscripts
-
-- **Decades of Transformation: Quantifying the Effects of Urbanization on the Hydroclimate of Dhaka, Bangladesh** (2025 manuscript) — urban land-cover change, climate and hydroclimatic analysis.
-- **Vector-Borne Infectious Diseases of Chattogram City: A Geo-Spatial Investigation on Dengue-Infected Patients and Breeding Sites of Aedes Mosquitoes** (2025 manuscript) — spatial epidemiology and dengue risk modelling.
-
-*The manuscripts are identified as research outputs, without asserting a current publication or peer-review status.*
-
-### Conference presentations
-
-- **Spatial Dynamics of Environment, Socioeconomics & Public Health in Urban Transport Hubs: A Case Study in Sylhet City Corporation** — RURS 1st International Student Conference and Research Fair (2024).
-- **Enhancing the Learning Experience: Exploring the Integration of Technology in University Classrooms** — BIGM National Conference (2024).
-
----
+| GIS Analyst, Jul 2025 to present | SPEKTER GmbH, Germany (remote) | Coupled 1D/2D hydrodynamic models, municipal drainage and infrastructure mapping |
+| Research Assistant, Feb 2025 to present | Space and Environment Research Center (SERC) | Satellite and SAR analysis for rice-field methane research |
+| Research Consultant, May 2024 to Jul 2025 | CEGIS, Bangladesh | Satellite and UAV land-cover mapping, ISO LCCS workflows |
+| Field Researcher, Feb to Mar 2024 | Shahjalal University of Science & Technology | Air, noise and water-quality assessment at Kuakata Sea Beach |
 
 ## Education
 
-- **Graduate studies in GIS for Environment and Development**, Jahangirnagar University, Bangladesh — thesis research on compound tidal–rainfall flooding in Chattogram's khal system.
-- **BSc in Geography and Environment**, Shahjalal University of Science & Technology, Bangladesh (2024) — thesis on dengue spatial epidemiology in Chattogram.
+- Graduate studies in GIS for Environment and Development, Jahangirnagar University, Bangladesh. Thesis on compound tidal-rainfall flooding in Chattogram's khal system.
+- BSc in Geography and Environment, Shahjalal University of Science & Technology, Bangladesh (2024). Thesis on dengue spatial epidemiology in Chattogram.
 
----
+## Manuscripts and presentations
 
-## Technical Expertise
+Listed as manuscripts; no publication or peer-review status is claimed here.
 
-### GIS & Earth Observation
+- Decades of Transformation: Quantifying the Effects of Urbanization on the Hydroclimate of Dhaka, Bangladesh (2025)
+- Vector-Borne Infectious Diseases of Chattogram City: A Geo-Spatial Investigation on Dengue-Infected Patients and Breeding Sites of Aedes Mosquitoes (2025)
 
-<p>
-<img src="https://img.shields.io/badge/ArcGIS%20Pro-2C7AC3?style=flat-square" alt="ArcGIS Pro">
-<img src="https://img.shields.io/badge/QGIS-589632?style=flat-square&amp;logo=qgis&amp;logoColor=white" alt="QGIS">
-<img src="https://img.shields.io/badge/Google%20Earth%20Engine-4285F4?style=flat-square" alt="Google Earth Engine">
-<img src="https://img.shields.io/badge/Sentinel--1%20SAR-355D70?style=flat-square" alt="Sentinel-1 SAR">
-<img src="https://img.shields.io/badge/Sentinel--2-355D70?style=flat-square" alt="Sentinel-2">
-<img src="https://img.shields.io/badge/ERDAS%20IMAGINE-426D71?style=flat-square" alt="ERDAS IMAGINE">
-<img src="https://img.shields.io/badge/UAV%20Mapping-426D71?style=flat-square" alt="UAV Mapping">
-</p>
+Conference presentations:
 
-### Hydrodynamics & Environmental Modelling
+- Spatial Dynamics of Environment, Socioeconomics & Public Health in Urban Transport Hubs: A Case Study in Sylhet City Corporation. RURS 1st International Student Conference and Research Fair, 2024.
+- Enhancing the Learning Experience: Exploring the Integration of Technology in University Classrooms. BIGM National Conference, 2024.
 
-<p>
-<img src="https://img.shields.io/badge/MIKE%20Suite-126B87?style=flat-square" alt="MIKE Suite">
-<img src="https://img.shields.io/badge/MIKE%20FLOOD-126B87?style=flat-square" alt="MIKE FLOOD">
-<img src="https://img.shields.io/badge/HEC--RAS-45788A?style=flat-square" alt="HEC-RAS">
-<img src="https://img.shields.io/badge/Hydro__AS-45788A?style=flat-square" alt="Hydro_AS">
-<img src="https://img.shields.io/badge/SMS-45788A?style=flat-square" alt="SMS">
-<img src="https://img.shields.io/badge/EPANET-45788A?style=flat-square" alt="EPANET">
-<img src="https://img.shields.io/badge/Civil%203D-45788A?style=flat-square" alt="Civil 3D">
-</p>
+## Tools
 
-### Coding, Statistics & Machine Learning
+- GIS and Earth observation: ArcGIS Pro, ArcMap, QGIS, Google Earth Engine, Sentinel-1/2, ERDAS IMAGINE, UAV mapping
+- Hydraulic modelling: MIKE+, MIKE 11, MIKE 21 FM, MIKE FLOOD, HEC-RAS, Hydro_AS, SMS, EPANET, Civil 3D
+- Programming and statistics: Python (pandas, NumPy, GeoPandas, scikit-learn, XGBoost), JavaScript, SQL, R, SPSS
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas">
-<img src="https://img.shields.io/badge/NumPy-4D77B7?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy">
-<img src="https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square" alt="GeoPandas">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/SQL-3E6D94?style=flat-square" alt="SQL">
-<img src="https://img.shields.io/badge/R-276DC3?style=flat-square&amp;logo=r&amp;logoColor=white" alt="R">
-<img src="https://img.shields.io/badge/XGBoost-596878?style=flat-square" alt="XGBoost">
-<img src="https://img.shields.io/badge/SPSS-4074A0?style=flat-square" alt="SPSS">
-</p>
+## Community
 
----
+- GIS instructor at School of Research, teaching spatial analysis and map visualisation
+- Rapid flood mapping and vulnerability assessment during the 2024 Feni-Cumilla floods
 
-## Research Workflow
+## Contact
 
-<pre>
-Satellite / Climate / Field / Infrastructure Data
-                       |
-                       v
-            QA, Cleaning and GIS
-                       |
-                       v
-         Spatial and Statistical Analysis
-                       |
-                       v
-      Hydrodynamic / Statistical / ML Models
-                       |
-                       v
-           Validation and Interpretation
-                       |
-                       v
-              Maps and Decision Support
-</pre>
+I'm open to collaboration on hydrodynamic modelling, environmental remote sensing, geospatial automation and spatial epidemiology.
 
----
-
-## Community & Knowledge Sharing
-
-- **GIS Instructor, School of Research** — training and mentoring in GIS, spatial analysis and map visualisation.
-- **Community flood mapping and disaster response (2024)** — rapid mapping and vulnerability assessment during the Feni–Cumilla floods.
-
----
-
-## Connect
-
-I welcome collaboration on **hydrodynamic modelling, environmental remote sensing, geospatial automation, spatial epidemiology, and applied environmental research**.
-
-**[Email](mailto:bipulroyedu@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/bipul-roy-635140171/)** · **[Portfolio](https://bipul-roy-ai.github.io/)**
-
-<p align="center"><sub>From observations to models, and from models to decisions.</sub></p>
+[Email](mailto:bipulroyedu@gmail.com) · [LinkedIn](https://www.linkedin.com/in/bipul-roy-635140171/) · [Portfolio](https://bipul-roy-ai.github.io/)
